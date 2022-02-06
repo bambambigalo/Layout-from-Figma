@@ -1,0 +1,63 @@
+.xbox_lab {
+	width: 100%;
+	height: 480px;
+	background-image: url('../images/xbox-lab.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+.xbox_lab::after {
+	content: '';
+	position: absolute;
+	background-color: gradient  rgba(141, 216, 61, 0.1) 100%;;
+	width: 100%;
+	height: 480px;
+	z-index: 1;
+}
+.lab {
+	z-index: 2;
+	padding-left: 167px;
+	padding-top: 114px;
+}
+.text_lab {
+	z-index: 2;
+}
+.title_lab {
+	color: #fff;
+	ont-size: 48px;
+	line-height: 56px;
+}
+.p_lab {
+	margin-top: 2px;
+	color: #fff;
+	font-size: 24px;
+	line-height: 28px;
+}
+.btns_lab {
+	display: flex;
+	align-items: center;
+	z-index: 2;
+}
+.btn_lab_left {
+	height: 60px;
+	width: 207px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	border-radius: 4px;
+	background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+.btn_lab_right {
+	margin-left: 10px;
+	height: 60px;
+	width: 278px;
+	border-radius: 4px;
+	background: #8DD83D;
+	border: none;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}

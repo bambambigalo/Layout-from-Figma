@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.best_value {
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+.top_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconx {
+  margin-top: 63px;
+  width: 63px;
+  height: 64px;
+  background-image: url('../images/logoxw.png');
+  background-size: 100% 100%;
+}
+.the {
+  color: #fff;
+  margin-top: 5px;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: 'Lato', sans-serif;
+}
+.in {
+  color: #fff;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+.cards {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 162px;
+}
+.card {
+  z-index: 2;
+  width: 320px;
+  height: 420px;
+  background-color: #fff;
+  border: solid 1px #8dd83d;
+  border-radius: 4px;
+}
+.content_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.text_card {
+  color: #435766;
+  padding-left: 22px;
+  font-size: 18px;
+}
+.text_card:last-child {
+  font-size: 24px;
+}
+.img_x {
+  width: 320px;
+  height: 160px;
+  background-image: url('../images/xboxonex.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.img_mixer {
+  width: 320px;
+  height: 160px;
+  background-image: url('../images/mixer.png');
+  background-repeat: no-repeat;
+  background-size: 209px 61px;
+  background-position: center;
+}
+.img_gold {
+  width: 320px;
+  height: 160px;
+  background-image: url('../images/gold.png');
+  background-repeat: no-repeat;
+  background-size: 200px 113px;
+  background-position: center;
+}
+.box_btn_card {
+
+
+  display: flex;
+  justify-content: center;
+
+}
+.btn_card {
+  border: 0;
+  width: 278px;
+  height: 60px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  color: #fff;
+  background: #8dd83d;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+}
